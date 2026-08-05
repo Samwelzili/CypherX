@@ -1,6 +1,6 @@
 {
   "name": "CypherX",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "The best Whatsapp bot",
   "type": "commonjs",
   "main": "main.js",
@@ -17,7 +17,7 @@
   },
   "author": "GoodnessTech",
   "dependencies": {
-    "@whiskeysockets/baileys": "7.0.0-rc13",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
     "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.16",
     "archiver": "^8.0.0",
