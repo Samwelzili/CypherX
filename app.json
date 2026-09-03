@@ -7,11 +7,18 @@
   "stack": "heroku-24",
   "addons": [
     {
-      "plan": "heroku-postgresql"
+      "plan": "heroku-postgresql:essential-0"
     }
   ],
   "scripts": {
     "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+      "value": "",
+      "required": true
+    }
   },
   "buildpacks": [
     {
